@@ -3,14 +3,14 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'vipergen/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'vipergen-roche'
+  s.name        = 'vipergen-xctestable'
   s.version     = Vipergen::VERSION.dup
   s.platform    = Gem::Platform::RUBY
   s.summary     = 'Generates XCode VIPER module controllers structure'
-  s.email       = 'michal.wojtysiak@roche.com'
-  s.homepage    = 'https://github.com/Roche/viper-module-generator'
+  s.email       = 'hhtopcu@gmail.com'
+  s.homepage    = 'https://github.com/hhtopcu/viper-module-generator'
   s.description = 'Based on the objc.io post about VIPER. It saves time in the implementation generating the controllers and adding interactions between them (in Swift or Objective-C)'
-  s.authors     = ['Pedro Piñera','Michal Wojtysiak']
+  s.authors     = ['Pedro Piñera','Michal Wojtysiak', "Hasan Huseyin Topcu"]
   s.license     = 'MIT'
 
   # Files
